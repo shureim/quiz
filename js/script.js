@@ -15,12 +15,13 @@ $(document).ready(function() {
 
     $(".after-submit").text(finalCorrect);
        event.preventDefault();
-       $("#after-submit").show();
+       $("#after-submit").show("your marks: ");
   });
 
-  $("p").click(function(){
-    $(".hide").toggle();
-    $(".show").toggle();
+  $("#be").click(function(){
+    $("#que").hide();
   });
-
+  $("#ba").click(function(){
+    $("#que").show();
+  });
 });
