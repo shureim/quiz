@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+   <link href="css/style.css" rel="stylesheet" type="text/css">
+   <script   src="https://code.jquery.com/jquery-3.3.1.min.js"> </script>
+   <script src="js/script.js"></script>
+
+    <title>quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron" text ="center">
+    <h1>Quiz board </h1>
+  </div>
+    <p>This are some of the question for you to answer and test your understanding in JavaScripts.</p>
+    <div class="well">
+
+    <form id="que">
+     <p><b>1. In the following example below, which one is a string in an array</b></p>
+
+     <input type="radio" name ="question1" id="r" value="10">["1","2","3"]<br>
+     <input type="radio" name ="question1" id="r" value="0">[1,2,3] <br>
+
+     <p><b>2. What does the abbreviation (CSS) stand for</b></p>
+
+     <input type="radio" name ="question2" id="r" value="10">Cascading style sheet<br>
+     <input type="radio" name ="question2" id="r" value="0">code style sheet<br>
+
+     <p><b>3. How many columns can fit in a row</b></p>
+
+       <input type="radio" name ="question3" id="r" value="10">12<br>
+       <input type="radio" name ="question3" id="r" value="0">6<br>
+
+       <p><b>4. Variables are used to store information used by the program.</b></p>
+
+       <input type="radio" name ="question4" id="r" value="10">True<br>
+       <input type="radio" name ="question4" id="r" value="0">False<br>
+
+       <p><b>5. Can array contain another array inside it.</b></p>
+
+       <input type="radio" name ="question5" id="r" value="10">Yes<br>
+       <input type="radio" name ="question5" id="r" value="0">No<br>
+
+
+       <button type="submit" class="btn">submit</button>
+   </form>
+   <div id="after-submit">
+      <p> <span class="after-submit"></span> </p>
+   </div>
+ </div>
+
+  </div>
+  </body>
+  </html>
