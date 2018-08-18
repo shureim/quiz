@@ -4,7 +4,7 @@
 }
 .well{
   margin-right: 50px;
-  background-color:#9ACD32;
+  background-color:#00FA9A;
   font-size: 17px;
   color: black;
   margin: 30px;
@@ -17,7 +17,8 @@ h1{
 }
 h3{
   text-align: center;
-  margin:50px
+  margin:50px;
+  color:#191970;
 }
 body{
   background-image: url(../img/black.jpeg);

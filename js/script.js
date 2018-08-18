@@ -15,7 +15,7 @@ $(document).ready(function() {
 
     $(".after-submit").text(finalCorrect);
        event.preventDefault();
-       $("#after-submit").show("your marks: ");
+       $("#after-submit").show();
   });
 
   $("#be").click(function(){
