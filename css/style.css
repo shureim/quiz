@@ -5,14 +5,29 @@
   display: none;
 }
 .well{
-  margin-left: 20px;
+  margin-right: 50px;
+  background-color:#E6E6FA;
+  font-size: 15px;
+  color: black;
 }
 h1{
   font-style: italic;
   font-size: 40px;
   font-weight: bolder;
-  text-color:blue;
+}
+body{
+  /* background-image:url(../img/quiz.gif); */
+  background-repeat: repeat;
+  color: black;
+  text-align: center;
 }
 .jumbotron{
-  vertical-align: middle;
+  margin-right: 50px;
+  padding-right: 30px;
+  background-color: #FFDEAD;
+  color: #FF4500;
+}
+.col{
+  font-size: 18px;
+  font-style: italic;
 }
