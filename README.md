@@ -5,7 +5,7 @@ A quiz board form is a webpage used for quiz.
 ## Description.
 A quiz board is a webpage that user can test their understanding on JavaScripts, 
 such that the user answers the question provided and press the submit button .
-Hence it provides the marks that you got them correct out of the total marks . 
+Hence it provides the marks that you got them correct out of the total marks which is fifty . 
 
 ## Setup/Installation Requirements.
 * Make sure the computer has atom or sublime text or visual studio code.
