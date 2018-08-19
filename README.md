@@ -20,7 +20,7 @@ Hence it provides the marks that you got them correct out of the total marks whi
 |All the answer should be provided for the marks to be displayed| 1,2,3,4,5 | 50 |
 |the program recognizes total marks of the question|[1,2,3,4,5]| 50 |
 ## Known Bugs.
-there are no know Bugs in this web page.
+There are no know Bugs in this web page.
 ## Technologies Used.
 * HTML.
 * CSS.
